@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Reader</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="/style.css">
+    <script src ="/app.js" defer></script>
+
+</head>
+<body>
+    <h1>My Simple RSS Reader</h1>
+    <div id="sub-btn">
+        <button>My Subscriptions</button>
+    </div>
+    
+    <div class = "news-container">
+    </div>
+
+    <template id="news-tmplt">
+        <div class = "news">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <div class = "description-container">
+                <p>NLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, urna id cursus ullamcorper, nulla nisi feugiat sem, eu feugiat ipsum justo id erat. Curabitur scelerisque imperdiet laoreet. Vestibulum venenatis augue imperdiet turpis tempus, eu dictum mauris finibus. Etiam ac nibh rutrum, efficitur libero ut, fringilla nunc. Phasellus molestie, nibh at congue ultricies, diam eros gravida enim, dapibus lobortis erat sapien nec mauris. Duis laoreet mi et velit congue, vitae volutpat sem vehicula. Sed ut porttitor purus. Maecenas et imperdiet elit. Mauris vehicula, velit ut faucibus pharetra, mauris felis placerat sapien, eget feugiat ipsum justo a neque. Vestibulum rutrum ipsum tellus, sit amet tincidunt ante dapibus vel. Nunc eget consectetur magna, non semper risus. Ut ante diam, pulvinar id posuere eu, laoreet ac neque. Aliquam erat volutpat. Sed vehicula pretium eros nec tempor. </p>
+            </div>
+            <a href="https://www.google.com/">Read More </a>
+        </div>
+    </template>
+</body>
+</html>
